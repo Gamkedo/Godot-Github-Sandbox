@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://c4hrawof8vra7" path="res://Player/playership.tscn" id="1_kdrlo"]
 [ext_resource type="PackedScene" uid="uid://chy58la7p4ca2" path="res://Powerups/UpgradeShotPlus.tscn" id="2_4aj01"]
 [ext_resource type="PackedScene" uid="uid://di0klw80v6wob" path="res://Models/vr-hand.glb" id="3_y3jsb"]
-[ext_resource type="Script" path="res://Models/3dspin.gd" id="4_6wt8j"]
+[ext_resource type="Script" uid="uid://dpklgc2qnhprn" path="res://Models/3dspin.gd" id="4_6wt8j"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c8lp0"]
 size = Vector2(1192, 20)
