@@ -1,0 +1,7 @@
+# Godot 4+ specific ignores
+.godot/
+raw/exported/
+build/
+
+# Mac OS ignores
+.DS_Store

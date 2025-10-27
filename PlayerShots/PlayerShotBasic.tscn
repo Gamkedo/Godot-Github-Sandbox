@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://bxee72qk34v6i"]
+
+[ext_resource type="Script" path="res://PlayerShots/ShotBasic.gd" id="1_htbel"]
+[ext_resource type="Texture2D" uid="uid://u2v5jlx3va4c" path="res://PlayerShots/shot-lev-2.png" id="2_3rh0v"]
+[ext_resource type="Texture2D" uid="uid://613kn3ct2f0h" path="res://PlayerShots/ShotBasic.png" id="3_e74oa"]
+[ext_resource type="Texture2D" uid="uid://bo62y2qll06a1" path="res://PlayerShots/shot-lev-3.png" id="4_q1mb3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bh3kg"]
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_htbel")
+sprite1_path = NodePath("ShotBasic")
+sprite2_path = NodePath("Shot-lev-2")
+sprite3_path = NodePath("Shot-lev-3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_bh3kg")
+
+[node name="Shot-lev-2" type="Sprite2D" parent="."]
+position = Vector2(2.08165e-12, 2.08165e-12)
+texture = ExtResource("2_3rh0v")
+
+[node name="ShotBasic" type="Sprite2D" parent="."]
+position = Vector2(2.08165e-12, 2.08165e-12)
+texture = ExtResource("3_e74oa")
+
+[node name="Shot-lev-3" type="Sprite2D" parent="."]
+position = Vector2(2.08165e-12, 2.08165e-12)
+texture = ExtResource("4_q1mb3")
