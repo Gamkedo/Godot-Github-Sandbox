@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://degldynxe05sf"]
+[gd_scene format=3 uid="uid://degldynxe05sf"]
 
 [ext_resource type="PackedScene" uid="uid://c4hrawof8vra7" path="res://Player/playership.tscn" id="1_kdrlo"]
 [ext_resource type="PackedScene" uid="uid://chy58la7p4ca2" path="res://Powerups/UpgradeShotPlus.tscn" id="2_4aj01"]
@@ -11,132 +11,132 @@ size = Vector2(1192, 20)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ioben"]
 size = Vector2(17, 646)
 
-[node name="MainPlay" type="Node2D"]
+[node name="MainPlay" type="Node2D" unique_id=1835705958]
 
-[node name="Player" parent="." instance=ExtResource("1_kdrlo")]
+[node name="Player" parent="." unique_id=1607171277 instance=ExtResource("1_kdrlo")]
 position = Vector2(550, 534)
 
-[node name="Boundaries" type="StaticBody2D" parent="."]
+[node name="Boundaries" type="StaticBody2D" parent="." unique_id=280031885]
 
-[node name="Top" type="CollisionShape2D" parent="Boundaries"]
+[node name="Top" type="CollisionShape2D" parent="Boundaries" unique_id=1857356899]
 position = Vector2(586, 0)
 shape = SubResource("RectangleShape2D_c8lp0")
 
-[node name="Left" type="CollisionShape2D" parent="Boundaries"]
+[node name="Left" type="CollisionShape2D" parent="Boundaries" unique_id=418828798]
 position = Vector2(10, 317)
 shape = SubResource("RectangleShape2D_ioben")
 
-[node name="Right" type="CollisionShape2D" parent="Boundaries"]
+[node name="Right" type="CollisionShape2D" parent="Boundaries" unique_id=1815042575]
 position = Vector2(1171.5, 323)
 shape = SubResource("RectangleShape2D_ioben")
 
-[node name="Bottom" type="CollisionShape2D" parent="Boundaries"]
+[node name="Bottom" type="CollisionShape2D" parent="Boundaries" unique_id=56428248]
 position = Vector2(578, 646)
 shape = SubResource("RectangleShape2D_c8lp0")
 
-[node name="PowerupsTest" type="Node2D" parent="."]
+[node name="PowerupsTest" type="Node2D" parent="." unique_id=51032897]
 
-[node name="Powerup" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(442, 433)
+[node name="Powerup" parent="PowerupsTest" unique_id=307557744 instance=ExtResource("2_4aj01")]
+position = Vector2(218, 152)
 
-[node name="Powerup2" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(295, 458)
+[node name="Powerup2" parent="PowerupsTest" unique_id=1436776293 instance=ExtResource("2_4aj01")]
+position = Vector2(114, 70)
 
-[node name="Powerup3" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(632, 437)
+[node name="Powerup3" parent="PowerupsTest" unique_id=868302097 instance=ExtResource("2_4aj01")]
+position = Vector2(827, 145)
 
-[node name="Powerup4" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(737, 458)
+[node name="Powerup4" parent="PowerupsTest" unique_id=540590786 instance=ExtResource("2_4aj01")]
+position = Vector2(910, 277)
 
-[node name="Powerup5" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(837, 471)
+[node name="Powerup5" parent="PowerupsTest" unique_id=1561843678 instance=ExtResource("2_4aj01")]
+position = Vector2(1010, 290)
 
-[node name="Powerup6" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(967, 474)
+[node name="Powerup6" parent="PowerupsTest" unique_id=2002763540 instance=ExtResource("2_4aj01")]
+position = Vector2(1074, 119)
 
-[node name="Powerup8" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(691, 558)
+[node name="Powerup8" parent="PowerupsTest" unique_id=1293524314 instance=ExtResource("2_4aj01")]
+position = Vector2(804, 427)
 
-[node name="Powerup9" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(796, 579)
+[node name="Powerup9" parent="PowerupsTest" unique_id=1835471467 instance=ExtResource("2_4aj01")]
+position = Vector2(897, 519)
 
-[node name="Powerup10" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(896, 592)
+[node name="Powerup10" parent="PowerupsTest" unique_id=1355556219 instance=ExtResource("2_4aj01")]
+position = Vector2(1021, 561)
 
-[node name="Powerup11" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(1026, 595)
+[node name="Powerup11" parent="PowerupsTest" unique_id=1580405899 instance=ExtResource("2_4aj01")]
+position = Vector2(1067, 435)
 
-[node name="Powerup7" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(176, 499)
+[node name="Powerup7" parent="PowerupsTest" unique_id=1079540536 instance=ExtResource("2_4aj01")]
+position = Vector2(92, 263)
 
-[node name="Powerup12" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(311, 551)
+[node name="Powerup12" parent="PowerupsTest" unique_id=1337371304 instance=ExtResource("2_4aj01")]
+position = Vector2(315, 255)
 
-[node name="Powerup13" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(441, 554)
+[node name="Powerup13" parent="PowerupsTest" unique_id=437550259 instance=ExtResource("2_4aj01")]
+position = Vector2(404, 125)
 
-[node name="Powerup14" parent="PowerupsTest" instance=ExtResource("2_4aj01")]
-position = Vector2(211, 590)
+[node name="Powerup14" parent="PowerupsTest" unique_id=1734493423 instance=ExtResource("2_4aj01")]
+position = Vector2(108, 403)
 
-[node name="3D background scene" type="Node" parent="."]
+[node name="3D background scene" type="Node" parent="." unique_id=1719504902]
 
-[node name="vr-hand2" parent="3D background scene" instance=ExtResource("3_y3jsb")]
+[node name="vr-hand2" parent="3D background scene" unique_id=2058888559 instance=ExtResource("3_y3jsb")]
 transform = Transform3D(-0.000978079, 0.999362, 0.0356885, -0.0273807, -0.0357019, 0.998987, 0.999625, -8.739e-08, 0.0273982, 32.4346, 0.0001297, 11.0338)
 script = ExtResource("4_6wt8j")
 spinZ = 1
 
-[node name="vr-hand3" parent="3D background scene" instance=ExtResource("3_y3jsb")]
+[node name="vr-hand3" parent="3D background scene" unique_id=736669020 instance=ExtResource("3_y3jsb")]
 transform = Transform3D(-0.00195617, 1.99872, 0.0713772, -1.9917, -0.00844068, 0.181775, 0.18196, -0.0709033, 1.99044, 22.3162, -18.5532, 3.98233)
 script = ExtResource("4_6wt8j")
 spinY = 1
 
-[node name="3D boundaries" type="Node" parent="3D background scene"]
+[node name="3D boundaries" type="Node" parent="3D background scene" unique_id=751205018]
 
-[node name="3d left" type="CSGBox3D" parent="3D background scene/3D boundaries"]
+[node name="3d left" type="CSGBox3D" parent="3D background scene/3D boundaries" unique_id=492612084]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.731264, 4.99725, 9.98039)
 size = Vector3(1, 1, 20.3375)
 
-[node name="3d top" type="CSGBox3D" parent="3D background scene/3D boundaries"]
+[node name="3d top" type="CSGBox3D" parent="3D background scene/3D boundaries" unique_id=928953868]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.4762, 4.99725, -0.271633)
 size = Vector3(36.7784, 1, 0.786194)
 
-[node name="3d bottom" type="CSGBox3D" parent="3D background scene/3D boundaries"]
+[node name="3d bottom" type="CSGBox3D" parent="3D background scene/3D boundaries" unique_id=2079868680]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.4762, 4.99725, 20.1256)
 size = Vector3(36.7784, 1, 0.72316)
 
-[node name="3d right" type="CSGBox3D" parent="3D background scene/3D boundaries"]
+[node name="3d right" type="CSGBox3D" parent="3D background scene/3D boundaries" unique_id=773281816]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.7226, 4.99725, 10.0399)
 size = Vector3(1, 1, 20.2183)
 
-[node name="OmniLight3D" type="OmniLight3D" parent="3D background scene"]
+[node name="OmniLight3D" type="OmniLight3D" parent="3D background scene" unique_id=1289470008]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.6197, 4.99725, 11.2573)
 omni_range = 17.632
 
-[node name="OmniLight3D2" type="OmniLight3D" parent="3D background scene"]
+[node name="OmniLight3D2" type="OmniLight3D" parent="3D background scene" unique_id=1873333501]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.6197, -47.5032, 11.2573)
 omni_range = 17.632
 
-[node name="vr-hand" parent="3D background scene" instance=ExtResource("3_y3jsb")]
+[node name="vr-hand" parent="3D background scene" unique_id=1024787125 instance=ExtResource("3_y3jsb")]
 transform = Transform3D(-1, 8.74228e-08, 3.48787e-16, -8.74228e-08, -1, -3.48787e-16, 3.48787e-16, -3.48787e-16, 1, 8.85775, 0.0001297, 1.15203)
 script = ExtResource("4_6wt8j")
 spinX = 1
 
-[node name="vr-hand4" parent="3D background scene" instance=ExtResource("3_y3jsb")]
+[node name="vr-hand4" parent="3D background scene" unique_id=187479431 instance=ExtResource("3_y3jsb")]
 transform = Transform3D(0.867805, -0.496869, 0.00602809, -0.0273807, -0.0357019, 0.998987, -0.496151, -0.867091, -0.0445869, 14.5462, -52.4897, 1.94917)
 script = ExtResource("4_6wt8j")
 spinZ = 1
 
-[node name="vr-hand5" parent="3D background scene" instance=ExtResource("3_y3jsb")]
+[node name="vr-hand5" parent="3D background scene" unique_id=2054191493 instance=ExtResource("3_y3jsb")]
 transform = Transform3D(0.158849, -1.05526, 1.69151, -1.9917, -0.00844069, 0.181775, -0.0887708, -1.69893, -1.05155, 16.6826, -71.0431, 7.21719)
 script = ExtResource("4_6wt8j")
 spinY = 1
 
-[node name="vr-hand6" parent="3D background scene" instance=ExtResource("3_y3jsb")]
+[node name="vr-hand6" parent="3D background scene" unique_id=1522916437 instance=ExtResource("3_y3jsb")]
 transform = Transform3D(0.497186, -4.34654e-08, 0.867644, -8.74228e-08, -1, -4.94013e-16, 0.867644, -7.58518e-08, -0.497186, 2.01567, -52.4897, 15.5058)
 script = ExtResource("4_6wt8j")
 spinX = 1
 
-[node name="Camera3D" type="Camera3D" parent="3D background scene"]
+[node name="Camera3D" type="Camera3D" parent="3D background scene" unique_id=1914985932]
 transform = Transform3D(1, -6.97574e-16, -1.5246e-23, -1.5246e-23, -4.37114e-08, 1, -6.97574e-16, -1, -4.37114e-08, 17.5481, 13.0985, 9.98588)
 projection = 1
 size = 20.0
