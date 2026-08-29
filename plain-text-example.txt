@@ -1,15 +1,10 @@
+plain-text-example.txt
 unused text file for simple editing
 don't put anything important in here, it'll live in repo history forever
 likewise please avoid needlessly inappropriate stuff either even though this is throwaway
 
-test line
-asdf
+My test commit.
+
 feel free to add, remove, etc
 
 here's another line
-here's another one!
-And another!!! 
-This line is the real new line
-
-HIIII
-a line on november 16th
